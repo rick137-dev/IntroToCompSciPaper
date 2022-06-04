@@ -1,0 +1,138 @@
+# File di test per la prova di laboratorio del 20/07/2018.
+
+[.TEST]
+Tre mattoncini semplici
+
+[.ARGS]
+.FILE
+
+[.FILE]
+1x7 B bianco
+5x1 B rosso
+2x2 B bianco
+
+[MAX-PER-COLORE]
+2
+
+[ALTEZZA-NON-QUADRATI]
+1
+
+[LUNGHEZZA]
+14
+
+[PIRAMIDI]
+2
+
+[ORDINAMENTO]
+1x7
+2x2
+5x1
+
+#-------------------------------------------------------------------
+
+[.TEST]
+Cinque 1x1
+
+[.ARGS]
+.FILE
+
+[.FILE]
+1x1 A rosso
+1x1 B bianco
+1x1 A bianco
+1x1 B rosso
+1x1 A verde
+
+[MAX-PER-COLORE]
+2
+
+[ALTEZZA-NON-QUADRATI]
+0
+
+[LUNGHEZZA]
+5
+
+[PIRAMIDI]
+1
+
+[ORDINAMENTO]
+1x1
+1x1
+1x1
+1x1
+1x1
+
+#-------------------------------------------------------------------
+
+[.TEST]
+Cinque piramidi
+
+[.ARGS]
+.FILE
+
+[.FILE]
+2x1 A rosso
+3x2 B arancione
+7x3 A bianco
+6x4 B blu
+6x5 A verde
+
+[MAX-PER-COLORE]
+1
+
+[ALTEZZA-NON-QUADRATI]
+4
+
+[LUNGHEZZA]
+24
+
+[PIRAMIDI]
+5
+
+[ORDINAMENTO]
+2x1
+3x2
+6x4
+6x5
+7x3
+
+#-------------------------------------------------------------------
+
+[.TEST]
+Tutti i colori una piramide forme mix
+
+[.ARGS]
+.FILE
+
+[.FILE]
+9x9 B rosso
+9x8 B giallo
+8x8 B verde
+7x7 B blu
+7x5 B nero
+7x3 B bianco
+7x1 B arancione
+
+[MAX-PER-COLORE]
+1
+
+[ALTEZZA-NON-QUADRATI]
+1
+
+[LUNGHEZZA]
+54
+
+[PIRAMIDI]
+1
+
+[ORDINAMENTO]
+7x1
+7x3
+7x5
+7x7
+8x8
+9x8
+9x9
+
+#-------------------------------------------------------------------
+

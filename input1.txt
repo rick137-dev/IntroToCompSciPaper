@@ -1,0 +1,5 @@
+2x1 A rosso
+3x2 B arancione
+7x3 A bianco
+6x4 B blu
+6x5 A verde
